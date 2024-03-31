@@ -28,7 +28,7 @@ function App() {
   return (
     <div className='App'>
         {arr.map((item, index) => {
-          return (<div key={index}><input title="text" type="checkbox" name="hobby" value={item.title} onChange={() => actChange(event,index)}></input> {item.title} {item.isChecked ? "ok" : "false"} <span style={{ color: "red", cursor: "pointer", display: item.isChecked == true ? 'block': 'none' }} onClick={() => actDelItem(index)}> X </span> </div>)
+          return (<div key={index}><input title="text" type="checkbox" name="hobby" value={item.title} onChange={() => actChange(index)}></input> {item.title} {item.isChecked ? "ok" : "false"} <span style={{ color: "red", cursor: "pointer", display: item.isChecked == true ? 'block': 'none' }} onClick={() => actDelItem(index)}> X </span> </div>)
         })}
     </div>
   );

@@ -19,6 +19,7 @@ function App() {
     setArr(arr.map((item, index) => {
       if (index == itemIndex) {
         // item.isChecked = event.target.checked;
+        //test
       }
       return item;
     }))

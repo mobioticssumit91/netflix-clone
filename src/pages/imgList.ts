@@ -16,19 +16,14 @@ import Movie29 from "@/assets/img/Movie-29.png"
 
 import Movie16 from "@/assets/img/Movie-16.png"
 import Movie17 from "@/assets/img/Movie-17.png"
-import Movie18 from "@/assets/img/Movie-18.png"
-import Movie19 from "@/assets/img/Movie-19.png"
 import Movie20 from "@/assets/img/Movie-20.png"
-import Movie21 from "@/assets/img/Movie-21.png"
 import Movie30 from "@/assets/img/Movie-30.png"
 
 import Movie22 from "@/assets/img/Movie-16.png"
-import Movie23 from "@/assets/img/Movie-17.png"
 import Movie24 from "@/assets/img/Movie-18.png"
 import Movie25 from "@/assets/img/Movie-19.png"
 import Movie26 from "@/assets/img/Movie-20.png"
 import Movie27 from "@/assets/img/Movie-21.png"
-import Movie31 from "@/assets/img/Movie-31.png"
 
 export const slider1 = [Movie1, Movie2, Movie3, Movie4, Movie5, Movie61, Movie28]
 

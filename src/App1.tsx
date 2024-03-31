@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 import "./App.css";
 
@@ -7,14 +7,14 @@ function App() {
   const [arr, setArr] = useState([{ title: "play cricket", isChecked: false }, { title: "play video game", isChecked: false }, { title: "read book", isChecked: false }]);
 
 
-  const actDelItem = (itemIndex) => {
+  const actDelItem = (itemIndex: number) => {
     setArr(arr.filter((item, index) => {
       if (!(index == itemIndex)) {
         return item;
       }
     }))
   }
-  const actChange =  (event, itemIndex) => {
+  const actChange =  (event: object, itemIndex: number) => {
 
     setArr(arr.map((item, index) => {
       if (index == itemIndex) {
@@ -28,7 +28,7 @@ function App() {
   return (
     <div className='App'>
         {arr.map((item, index) => {
-          return (<div key={index}><input type="checkbox" name="hobby" value={item.title} onChange={() => actChange(event,index)}></input> {item.title} {item.isChecked ? "ok" : "false"} <span style={{ color: "red", cursor: "pointer", display: item.isChecked == true ? 'block': 'none' }} onClick={() => actDelItem(index)}> X </span> </div>)
+          return (<div key={index}><input title="text" type="checkbox" name="hobby" value={item.title} onChange={() => actChange(event,index)}></input> {item.title} {item.isChecked ? "ok" : "false"} <span style={{ color: "red", cursor: "pointer", display: item.isChecked == true ? 'block': 'none' }} onClick={() => actDelItem(index)}> X </span> </div>)
         })}
     </div>
   );

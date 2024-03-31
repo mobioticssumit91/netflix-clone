@@ -14,11 +14,11 @@ function App() {
       }
     }))
   }
-  const actChange =  (event: object, itemIndex: number) => {
+  const actChange =  (itemIndex: number) => {
 
     setArr(arr.map((item, index) => {
       if (index == itemIndex) {
-        item.isChecked = event.target.checked;
+        // item.isChecked = event.target.checked;
       }
       return item;
     }))

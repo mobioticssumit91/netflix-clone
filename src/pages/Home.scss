@@ -1,0 +1,83 @@
+.container {
+    padding: 1rem 2rem;
+}
+.container-header {
+
+    position: absolute;
+    top: 1rem;
+    display: flex;
+    gap: 2rem;
+    font-size: 0.8rem;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+.container-header-right {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 7rem;
+}
+
+.sub-container {
+
+}
+.logo {
+    width: 6rem;
+    top: 1rem;
+}
+.menulist {
+    top: 1rem;
+    right: 4rem;
+    ul {
+        list-style-type: none; 
+        display: flex;
+        column-gap: 1rem;
+        li {
+            color: rgba(255, 255, 255, 0.6);
+            &:first-child {
+                color: white;
+                font-weight: 400;
+              }
+        }
+    } 
+}
+
+.single-card {
+    width: 13rem;
+    aspect-ratio: 16 / 9;
+}
+.slider-container {
+    position: absolute;
+    margin-top: -8rem;
+    left: 0.5rem;
+}
+.slider-manager {
+    display: flex;
+    column-gap: 0.5rem;
+    overflow: scroll;
+} 
+.slider-title {
+    font-weight: 600;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.carousel-meta {
+
+   .banner-promo {
+        width: 31rem;
+        position: absolute;
+        left: 0rem;
+        top: 5rem;
+   } 
+   .btn-group {
+    position: absolute;
+    top: 26rem;
+    right: 20rem;
+    div {
+       width:3rem;
+       color: black;
+       background-color: white; 
+    }
+   }
+}

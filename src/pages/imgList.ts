@@ -25,7 +25,7 @@ import Movie25 from "@/assets/img/Movie-19.png"
 import Movie26 from "@/assets/img/Movie-20.png"
 import Movie27 from "@/assets/img/Movie-21.png"
 
-export const slider1 = [Movie1, Movie2, Movie3, Movie4, Movie5, Movie61, Movie28]
+export const slider1 = [Movie1, Movie2, Movie3, Movie4, Movie5, Movie61, Movie28, Movie6,Movie7, Movie8, Movie9, Movie10]
 
 export const slider2 = [Movie6,Movie7, Movie8, Movie9, Movie10, Movie11, Movie29]
 export const slider3 = [Movie16,Movie17, Movie29, Movie28, Movie20, Movie61, Movie30]

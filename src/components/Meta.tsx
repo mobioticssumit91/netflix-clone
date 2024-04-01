@@ -1,4 +1,5 @@
 import meta from '@/assets/img/frame-62.png'
+// added
 function Meta() {
     return (
      <>
@@ -6,6 +7,7 @@ function Meta() {
             <div className="banner-promo">
                 <img src={meta} alt="logo"></img>
             </div>
+
             {/* <div className="btn-group">
                 <div>PLAY</div>
                 <div>MORE INFO</div>
